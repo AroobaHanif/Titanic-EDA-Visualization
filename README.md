@@ -33,7 +33,7 @@ This project covers data preprocessing and analysis of the Titanic dataset using
 - Applied StandardScaler on numeric features
 - Compared original vs scaled distributions
 
-File: `task_2_feature_scaling.ipynb`
+File: `Feature_Scaling_and_Distribution_Comparison.ipynb`
 
 ---
 
