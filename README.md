@@ -1,48 +1,50 @@
-# Titanic Dataset - EDA and Visualization
+# Machine Learning Internship Tasks – Titanic Dataset & Regression Models
 
-This repository contains my submission for Task 1: Data Analysis and Visualization.
+This repository contains my submissions for multiple internship tasks, covering **Exploratory Data Analysis (EDA)**, **feature scaling**, and **regression modeling**.
 
-##  Task Overview
-- Loaded Titanic Dataset using Pandas
-- Performed EDA (data types, summary stats, missing values)
+---
+
+## Task 1 – Titanic Dataset: Data Analysis & Visualization
+- Loaded Titanic dataset using Pandas
+- Performed EDA (data types, summary statistics, missing values check)
 - Visualized:
   - Bar plots for categorical variables
   - Histograms for numerical variables
   - Correlation heatmap
 
-##  Tools Used
+**File:** `titanic.ipynb`
+
+---
+
+## Task 2 – Feature Scaling & Distribution Comparison
+- Applied `StandardScaler` on numeric features
+- Compared **original vs scaled** distributions using histograms
+
+**File:** `Feature_Scaling_and_Distribution_Comparison.ipynb`
+
+---
+
+## Task 3 – Linear & Polynomial Regression (House Price Prediction)
+- Trained **Simple Linear Regression** and **Polynomial Regression** models
+- Compared predictions with actual values using scatter plots
+- Evaluated models using:
+  - **R² Score**
+  - **Mean Absolute Error (MAE)**
+  - **Root Mean Squared Error (RMSE)**
+
+**File:** `LinearRegression.ipynb`
+
+---
+
+## 🛠Tools & Libraries Used
 - Python
-- Pandas
-- Matplotlib
-- Seaborn
-
-##  File
-- `titanic.ipynb`: Complete Jupyter notebook of the task
-
-
-# Titanic Dataset Analysis 
-
-##  Overview
-This project covers data preprocessing and analysis of the Titanic dataset using Python, pandas, seaborn, and scikit-learn.
-
----
-
-##  Tasks Included
-
-###  Task 2 – Feature Scaling & Visualization
-- Applied StandardScaler on numeric features
-- Compared original vs scaled distributions
-
-File: `Feature_Scaling_and_Distribution_Comparison.ipynb`
-
----
-
-##  Libraries Used
 - pandas
 - matplotlib
 - seaborn
 - scikit-learn
+- numpy
 
 ---
 
-##  By Arooba Hanif
+## Author
+**Arooba Hanif**
