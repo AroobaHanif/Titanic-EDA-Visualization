@@ -36,7 +36,22 @@ This repository contains my submissions for multiple internship tasks, covering 
 
 ---
 
-## 🛠Tools & Libraries Used
+## Task 4 – Logistic Regression (Titanic Survival Prediction)
+- Trained **Logistic Regression** model on Titanic dataset  
+- Split data into **train** and **test** sets  
+- Evaluated model using:  
+  - Confusion Matrix  
+  - Accuracy  
+  - Precision  
+  - Recall (Sensitivity)  
+  - F1-Score  
+  - Specificity, FPR, FNR, NPV (detailed classification metrics)  
+
+**File:** `LogisticRegression.ipynb`
+
+---
+
+## 🛠 Tools & Libraries Used
 - Python
 - pandas
 - matplotlib
