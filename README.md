@@ -1,6 +1,6 @@
 # Machine Learning Internship Tasks – Titanic Dataset & Regression Models
 
-This repository contains my submissions for multiple internship tasks, covering Exploratory Data Analysis (EDA), feature scaling, regression modeling, classification, and hyperparameter optimization.
+This repository contains my submissions for multiple internship tasks, covering Exploratory Data Analysis (EDA), feature scaling, regression modeling, classification, hyperparameter optimization, and clustering.
 
 ---
 
@@ -14,7 +14,7 @@ This repository contains my submissions for multiple internship tasks, covering 
   - Histograms for numerical variables
   - Correlation heatmap  
 
-📂 File: `titanic.ipynb`
+ File: `titanic.ipynb`
 
 ---
 
@@ -22,7 +22,7 @@ This repository contains my submissions for multiple internship tasks, covering 
 - Applied **StandardScaler** on numeric features
 - Compared original vs scaled distributions using histograms  
 
-📂 File: `Feature_Scaling_and_Distribution_Comparison.ipynb`
+ File: `Feature_Scaling_and_Distribution_Comparison.ipynb`
 
 ---
 
@@ -34,7 +34,7 @@ This repository contains my submissions for multiple internship tasks, covering 
   - Mean Absolute Error (MAE)
   - Root Mean Squared Error (RMSE)  
 
-📂 File: `LinearRegression.ipynb`
+ File: `LinearRegression.ipynb`
 
 ---
 
@@ -49,7 +49,7 @@ This repository contains my submissions for multiple internship tasks, covering 
   - F1-Score
   - Specificity, FPR, FNR, NPV (detailed classification metrics)  
 
-📂 File: `LogisticRegression.ipynb`
+ File: `LogisticRegression.ipynb`
 
 ---
 
@@ -72,11 +72,30 @@ This repository contains my submissions for multiple internship tasks, covering 
   - Best Randomized Search model
 - Documented **optimal hyperparameters** found by each method  
 
-📂 File: `HyperparameterOptimization.ipynb`
+ File: `HyperparameterOptimization.ipynb`
 
 ---
 
-## 🛠 Tools & Libraries Used
+## Task 6 – Customer Segmentation using K-Means Clustering
+- Performed **unsupervised customer segmentation** on the **Mall Customers dataset**
+- Steps included:
+  - Data loading, cleaning, and feature selection (`Age`, `Annual Income (k$)`, `Spending Score (1-100)`, `Gender`)
+  - Converted categorical features (`Gender`) into numeric values
+  - Handled missing values and applied **StandardScaler**
+  - Determined optimal number of clusters using:
+    - **Elbow Method**
+    - **Silhouette Score**
+  - Applied **K-Means Clustering** with the chosen number of clusters
+  - Visualized clusters using:
+    - 2D scatter plots
+    - 3D scatter plot for better cluster separation  
+- Interpreted customer segments based on demographics and spending patterns  
+
+ File: `Customer_Segmentation_KMeans.ipynb`
+
+---
+
+##  Tools & Libraries Used
 - Python  
 - pandas  
 - numpy  
