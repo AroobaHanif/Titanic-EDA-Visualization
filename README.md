@@ -1,6 +1,6 @@
 # Machine Learning Internship Tasks – Titanic Dataset & Regression Models
 
-This repository contains my submissions for multiple internship tasks, covering Exploratory Data Analysis (EDA), feature scaling, regression modeling, classification, hyperparameter optimization, and clustering.
+This repository contains my submissions for multiple internship tasks, covering Exploratory Data Analysis (EDA), feature scaling, regression modeling, classification, hyperparameter optimization, feature selection, and clustering.
 
 ---
 
@@ -95,7 +95,28 @@ This repository contains my submissions for multiple internship tasks, covering 
 
 ---
 
-##  Tools & Libraries Used
+## Task 7 – Feature Optimization for Classification (Recursive Feature Elimination - RFE)
+- Implemented **Recursive Feature Elimination (RFE)** and **RFECV** to select the most important features for classification
+- Dataset: **Titanic Survival Prediction**
+- Steps included:
+  - Preprocessing:
+    - Handling missing values with **SimpleImputer**
+    - Scaling numerical features with **StandardScaler**
+    - Encoding categorical features with **OneHotEncoder**
+  - Built preprocessing pipeline with **ColumnTransformer**
+  - Extracted transformed feature names for interpretation
+  - Applied **RFE** with Logistic Regression to rank features by importance
+  - Applied **RFECV** with cross-validation to find the optimal subset of features
+- Visualized results with:
+  - Feature ranking scores
+  - Cross-validation accuracy vs. number of features  
+- Output: Optimal feature subset improving model performance  
+
+ File: `FeatureOptimization_RecursiveFeatureElimination(RFE).ipynb`
+
+---
+
+## Tools & Libraries Used
 - Python  
 - pandas  
 - numpy  
