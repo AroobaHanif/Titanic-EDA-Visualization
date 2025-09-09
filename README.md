@@ -116,6 +116,47 @@ This repository contains my submissions for multiple internship tasks, covering 
 
 ---
 
+## Task 8 – MNIST Neural Network (ReLU vs Sigmoid)
+- Implemented a **fully connected neural network (Multi-Layer Perceptron)** on the **MNIST dataset** (handwritten digits).
+- Compared performance of two activation functions:
+  - **Sigmoid**
+  - **ReLU**
+- Steps included:
+  - Data preprocessing and normalization
+  - Building the neural network architecture
+  - Training models separately with ReLU and Sigmoid activations
+  - Evaluating training and validation accuracy
+  - Plotting loss and accuracy curves for comparison
+- **Key Outcome:** ReLU achieved faster convergence and higher accuracy than Sigmoid.
+
+ File: `MNIST_Neural_Network_ReLU_vs_Sigmoid.ipynb`
+
+---
+
+## Task 9 – Convolutional Neural Network (CNN) on CIFAR-10
+- Developed a **Convolutional Neural Network (CNN)** for the **CIFAR-10 dataset** (10 classes of real-world images).
+- Steps included:
+  - Data preprocessing and normalization
+  - Data augmentation techniques:
+    - Random rotation
+    - Horizontal flip
+    - Normalization
+  - CNN Architecture:
+    - Convolutional layers
+    - Pooling layers
+    - Fully connected layers
+    - Dropout regularization
+  - Compiled and trained model on CIFAR-10 dataset
+  - Evaluated performance using:
+    - Accuracy
+    - Confusion Matrix
+    - Loss and accuracy curves
+- **Key Outcome:** CNN significantly improved image classification performance compared to traditional neural networks.
+
+ File: `CNN_Development_Image_Classification_CIFAR-10.ipynb`
+
+---
+
 ## Tools & Libraries Used
 - Python  
 - pandas  
@@ -123,6 +164,7 @@ This repository contains my submissions for multiple internship tasks, covering 
 - matplotlib  
 - seaborn  
 - scikit-learn  
+- PyTorch  
 
 ---
 
