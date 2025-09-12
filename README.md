@@ -1,6 +1,6 @@
 # Machine Learning Internship Tasks – Titanic Dataset & Regression Models
 
-This repository contains my submissions for multiple internship tasks, covering Exploratory Data Analysis (EDA), feature scaling, regression modeling, classification, hyperparameter optimization, feature selection, and clustering.
+This repository contains my submissions for multiple internship tasks, covering Exploratory Data Analysis (EDA), feature scaling, regression modeling, classification, hyperparameter optimization, feature selection, clustering, and deep learning (neural networks and CNNs).
 
 ---
 
@@ -157,6 +157,24 @@ This repository contains my submissions for multiple internship tasks, covering 
 
 ---
 
+## Task 10 – Transfer Learning with Pre-Trained ResNet (CIFAR-10)
+- Implemented **Transfer Learning** using a pre-trained **ResNet** model on the **CIFAR-10 dataset**
+- Steps included:
+  - Loaded and preprocessed CIFAR-10 dataset (normalization, train/test split)
+  - Applied **data augmentation** (random rotation, horizontal flip)
+  - Loaded **ResNet (pre-trained on ImageNet)** from `torchvision.models`
+  - Replaced final fully connected layer to match **10 classes of CIFAR-10**
+  - **Fine-tuned** selected layers while freezing others for faster convergence
+- Evaluation:
+  - Compared accuracy of transfer learning vs. custom CNN (from Task 9)
+  - Plotted training & validation curves (loss & accuracy)
+  - Achieved **higher accuracy and faster convergence** with transfer learning
+- **Key Outcome:** Transfer learning with ResNet outperformed the custom CNN model in both accuracy and training efficiency.
+
+ File: `BrainTumorSegmentation_BraTS.ipynb`
+
+---
+
 ## Tools & Libraries Used
 - Python  
 - pandas  
@@ -165,6 +183,7 @@ This repository contains my submissions for multiple internship tasks, covering 
 - seaborn  
 - scikit-learn  
 - PyTorch  
+- torchvision  
 
 ---
 
